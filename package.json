@@ -1,0 +1,62 @@
+{
+  "name": "mini-linkedin",
+<<<<<<< HEAD
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+=======
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+>>>>>>> f2ce54e (Initial full project commit)
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+=======
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "firebase": "^12.0.0",
+    "lucide-react": "^0.536.0",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-variants": "^2.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "24.2.0",
+    "@types/react": "19.1.9",
+    "autoprefixer": "^10.4.21",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.3.3"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+>>>>>>> f2ce54e (Initial full project commit)
+}

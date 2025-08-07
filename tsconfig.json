@@ -1,23 +1,37 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
+=======
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+>>>>>>> beec523 (Final fixes and cleanup before deployment)
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
+<<<<<<< HEAD
     "module": "esnext",
     "moduleResolution": "node",
+=======
+    "module": "ESNext",
+    "moduleResolution": "Node",
+>>>>>>> beec523 (Final fixes and cleanup before deployment)
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+<<<<<<< HEAD
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }
+=======
+    "types": ["node"]
+>>>>>>> beec523 (Final fixes and cleanup before deployment)
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
